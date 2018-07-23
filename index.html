@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<!-- Preoload -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="./diffyjs/dist/diffy.min.js"></script>
+
+
+
+<body class="gui">
+  <h1>johnBot</h1>
+  <div class="drag" style="-webkit-app-region: drag"></div>
+  <div id="switch" class="switch">
+
+  </div>
+  <div id="hud" class="hud">
+    <button id="away" class="button away">JohnDar</button>
+    <button id="weather" class="button weather ">Weather</button>
+    <button id="dice" class="button dice ">Roll Dice</button>
+    <button id="quit" class="button quit ">Quit</button>
+
+
+  </div>
+  <!-- Postload -->
+  <script src="./config.js"></script>
+  <script src="./salty-bet.js"></script>
+  <script src="./renderer.js"></script>
+  <script src="./webcam.js"></script>
+
+  <script>if (window.module) module = window.module;</script>
+
+</body>
+
+</html>

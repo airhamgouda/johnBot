@@ -1,0 +1,19 @@
+{
+  "name": "john-bot",
+  "version": "1.0.0",
+  "description": "A johnny bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/airhamgouda/johnBot.git",
+  "keywords": [],
+  "author": "Airham Gouda",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}

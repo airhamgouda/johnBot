@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.drag {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    margin-right: 1px;
+    margin-top: 1px;
+    position: fixed;
+}
+.switch, .hud {
+    height: 150px;
+    width: 210px;
+    border-style: solid;
+}
+
+.button {
+    height: 50%;
+    width: 75px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
